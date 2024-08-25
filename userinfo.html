@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Medical Lab </title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet"  href="css/box.css">
+  <link  rel="stylesheet" href="css/result.css" />
+  <script src="js/app.js"></script>
+
+</head>
+<body>
+<center>
+  <img src="img/logo.png" alt="logo" width="15%" height="15%"  >
+</center>
+<div id="app">
+  <header>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="booktest.html">Booktest</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="suggestion.html">Suggestion</a></li>
+        <li><a href="result.html">Result</a></li>
+        <li><a href="report.html">Report</a></li>
+        <li><a href="signup.html">Register</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="userinfo.html">User Information</a></li>
+      </ul>
+    </nav>
+  </header>
+  <br> <br>
+  <main>
+
+
+<div class="container">
+  <h2>User Information </h2>
+  <form id="registerForm">
+    <label for="fullname">Fullname:</label>
+    <input type="text" id="fullname" name="fullname" required>
+
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="birthyear">Birth Year:</label>
+    <input type="number" min="1900" max="2025" step="1" id="birthyear" name="birthyear" required >
+
+
+    <label for="height">Height:</label>
+    <input type="number" id="height" name="height"  min="1" required>
+
+    <label for="weight">Weight:</label>
+    <input type="number" id="weight" name="weight" min="1"required >
+
+    <label for="pregnancies">Number of Pregnancies:</label>
+    <input type="number" id="pregnancies" name="pregnancies" >
+
+
+    <label>Gender:</label>
+    <div class="radio-group"  >
+      <input type="radio" id="male" name="gender" value="male" required>
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" required>
+      <label for="female">Female</label></div>
+
+
+    <br>
+    <br>
+    <br>
+    <label>Ever got married:</label>
+    <div class="radio-group"  >
+      <input type="radio" id="marriedyes" name="married" value="yes" required>
+      <label for="marriedyes">Yes</label>
+      <input type="radio" id="marriedno" name="married" value="no" required>
+      <label for="marriedno">No</label></div>
+
+
+    <br>
+    <br>
+    <br>
+    <label>Residence:</label>
+    <div class="radio-group"  >
+      <input type="radio" id="urban" name="residence" value="urban" required>
+      <label for="urban">Urban</label>
+      <input type="radio" id="rural" name="residence" value="rural" required>
+      <label for="rural">Rural</label></div>
+
+    <br>
+    <br>
+    <br>
+    <label for="work">Work Status:</label>
+    <select id="work" name="work">
+      <option value="neverworked">Never Worked</option>
+      <option value="private">Private</option>
+      <option value="selfemployed">Self-Employed</option>
+      <option value="government">Government</option>
+      <option value="children">Children</option>
+    </select>
+
+
+
+    <br>
+    <br>
+    <br>
+    <label for="smoke">Smoking Status:</label>
+    <select id="smoke" name="smoke">
+      <option value="unknown">Unknown</option>
+      <option value="never">Never</option>
+      <option value="former">Former</option>
+      <option value="current">Current</option>
+    </select>
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <label for="exng">Exercise Induced Angina :</label>
+    <input type="checkbox" id="exng" name="exng" value="1" checked >
+
+    <label for="heart_disease">Heart Disease:</label>
+    <input type="checkbox" id="heart_disease" name="heart_disease" value="0" checked >
+
+
+    <br>
+    <br>
+    <br>
+    <input type="reset" name="cle" value="Clear">
+
+    <button type="submit">Register</button>
+
+
+
+  </form>
+</div>
+</main>
+<br>
+<br>
+<br>
+<br>
+
+</body>
+<br><br><br>      <br><br><br>
+
+
+
+
+<footer>
+  <div class="dropup">
+    <a class="dropbtn" > <img src="img/more.png" width="20px"></a>
+    <div class="dropup-content">
+      <a href="home.html">Home</a>
+      <a href="booktest.html">Booktest</a>
+      <a href="about.html">About Us</a>
+      <a href="suggestion.html">Suggestion</a>
+      <a href="result.html">Result</a>
+      <a href="report.html">Report</a>
+      <a href="signup.html">Register</a>
+      <a href="login.html">Login</a>
+    </div>
+  </div>
+
+  <br>
+
+  &copy;AI Medical Lab System. Ahmad Zalloum & Omar AlNadi
+  <br>
+
+</footer>
+</html>
+
+

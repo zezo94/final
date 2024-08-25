@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Medical Lab </title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet"  href="css/box.css">
+  <link  rel="stylesheet" href="css/result.css" />
+  <script src="js/app.js"></script>
+
+</head>
+<body>
+<center>
+  <img src="img/logo.png" alt="logo" width="15%" height="15%"  >
+</center>
+<div id="app">
+  <header>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="booktest.html">Booktest</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="suggestion.html">Suggestion</a></li>
+        <li><a href="result.html">Result</a></li>
+        <li><a href="report.html">Report</a></li>
+        <li><a href="signup.html">Register</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="userinfo.html">User Information</a></li>
+      </ul>
+    </nav>
+  </header>
+  <br> <br>
+  <main>
+
+
+    <div class="container">
+      <h2>Heart Attack </h2>
+      <form id="registerForm">
+
+
+
+  <label for="blood_pressure">Blood Pressure (mm Hg):</label>
+        <input type="number" id="blood_pressure" required>
+
+    <label for="cholestoral">Cholestoral (mg/dl):</label>
+    <input type="number" id="cholestoral" required>
+
+
+    <label for="fasting_blood_sugar">Fasting Blood Sugar (mg/dl):</label>
+    <input type="number" id="fasting_blood_sugar" required>
+
+
+
+
+
+
+    <label for="max_heart_rate">Max Heart Rate:</label> <!-- thalach -->
+    <input type="number" id="max_heart_rate" required>
+
+
+    <label for="ST_depression">ST Depression:</label> <!-- oldpeak -->
+    <input type="number" id="ST_depression" required>
+
+        <label for="resting_ECG">Resting ECG:</label>
+
+        <select id="resting_ECG" required>
+          <option value="normal">Normal</option>
+          <option value="ST-T_wave_abnormality">ST-T Wave Abnormality</option>
+          <option value="left_ventricular_hypertrophy">Left Ventricular Hypertrophy</option>
+        </select>
+
+        <label for="thal_rate">Thal Rate:</label>
+
+        <select id="thal_rate" required>
+          <option value="normal">Normal</option>
+          <option value="fixed_defect">Fixed Defect</option>
+          <option value="reversible_defect">Reversible Defect</option>
+        </select>
+
+        <label for="chest_pain">Chest Pain Type:</label>
+
+        <select id="chest_pain" required>
+          <option value="typical_angina">Typical Angina</option>
+          <option value="atypical_angina">Atypical Angina</option>
+          <option value="non-anginal_pain">Non-Anginal Pain</option>
+          <option value="asymptomatic">Asymptomatic</option>
+        </select>
+
+
+
+
+
+    <label for="slope">Slope of the Peak Exercise ST Segment:</label>
+
+        <select id="slope" required>
+            <option value="upsloping">Upsloping</option>
+            <option value="flat">Flat</option>
+            <option value="downsloping">Downsloping</option>
+        </select>
+
+
+
+        <label for="major_vessels">Number of Major Vessels:</label> <!-- ca -->
+
+        <select id="major_vessels" required>
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+
+        <br>
+        <br>
+        <br>
+        <input type="reset" name="cle" value="Clear">
+
+        <button type="submit">Save</button>
+
+
+      </form>
+    </div>
+  </main>
+  <br>
+  <br>
+  <br>
+  <br>
+
+</body>
+<br><br><br>      <br><br><br>
+
+
+
+
+<footer>
+  <div class="dropup">
+    <a class="dropbtn" > <img src="img/more.png" width="20px"></a>
+    <div class="dropup-content">
+      <a href="home.html">Home</a>
+      <a href="booktest.html">Booktest</a>
+      <a href="about.html">About Us</a>
+      <a href="suggestion.html">Suggestion</a>
+      <a href="result.html">Result</a>
+      <a href="report.html">Report</a>
+      <a href="signup.html">Register</a>
+      <a href="login.html">Login</a>
+    </div>
+  </div>
+
+  <br>
+
+  &copy;AI Medical Lab System. Ahmad Zalloum & Omar AlNadi
+  <br>
+
+</footer>
+</html>
+
+
